@@ -2,7 +2,7 @@
 import colors from 'tailwindcss/colors';
 
 export default {
-  darkMode: 'class',
+  darkMode: ['class', 'class'],
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     transparent: 'transparent',
